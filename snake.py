@@ -16,11 +16,23 @@ class Snake:
 
     def create_snake(self):
         for position in STARTING_POSITIONS:
-            snake = Turtle("square")
-            snake.color("white")
-            snake.penup()
-            snake.goto(position)
-            self.segments.append(snake)
+            self.add_segment(position)
+
+    def add_segment(self, position):
+        snake = Turtle("square")
+        snake.color("white")
+        snake.penup()
+        snake.goto(position)
+        self.segments.append(snake)
+
+    # Extend method explained
+    '''
+    In the extend method using self.segments[-1] will grab the last index from the list
+    Once the last position is grabbed it adds a turtle (square) on top of that position and appends it to segments
+    Once added to segments it loops back into the move method and stays with the snake
+    '''
+    def extend(self):
+        self.add_segment(self.segments[-1].position())
 
     # How the move function works
     '''

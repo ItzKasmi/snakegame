@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf5b895-6e78-43f7-8cf7-1aa15b15be07" name="Changes" comment="Refactor into OOP. Creating a snake class and make it move across the screen">
+    <list default="true" id="cdf5b895-6e78-43f7-8cf7-1aa15b15be07" name="Changes" comment="Created a way for the snake to move and not overlap itself">
+      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
@@ -17,9 +19,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2dHT8CBeFoyPuhk4qOXbexC3oFe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -31,6 +33,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.main.executor": "Run",
+    "Python.scoreboard.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master"
@@ -60,11 +63,20 @@
       <option name="project" value="LOCAL" />
       <updated>1709667303337</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Created a way for the snake to move and not overlap itself">
+      <option name="closed" value="true" />
+      <created>1709668264758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1709668264758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor into OOP. Creating a snake class and make it move across the screen" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor into OOP. Creating a snake class and make it move across the screen" />
+    <MESSAGE value="Created a way for the snake to move and not overlap itself" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created a way for the snake to move and not overlap itself" />
   </component>
 </project>
