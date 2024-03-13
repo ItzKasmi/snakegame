@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cdf5b895-6e78-43f7-8cf7-1aa15b15be07" name="Changes" comment="Created a way for the snake to move and not overlap itself">
-      <change afterPath="$PROJECT_DIR$/food.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
+    <list default="true" id="cdf5b895-6e78-43f7-8cf7-1aa15b15be07" name="Changes" comment="Finished snake game">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scoreboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/scoreboard.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/snake.py" beforeDir="false" afterPath="$PROJECT_DIR$/snake.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +35,8 @@
     "Python.scoreboard.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master"
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/kasmi/PycharmProjects/snakegame"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -71,12 +71,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709668264758</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Finished snake game">
+      <option name="closed" value="true" />
+      <created>1709677606118</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709677606118</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Refactor into OOP. Creating a snake class and make it move across the screen" />
     <MESSAGE value="Created a way for the snake to move and not overlap itself" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created a way for the snake to move and not overlap itself" />
+    <MESSAGE value="Finished snake game" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished snake game" />
   </component>
 </project>
